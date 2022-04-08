@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Inter,sans-serif;
+    src: url(https://www.suggestr.co/);
+}
+*{
+    font-family:  Inter,sans-serif;
+}
+#navbar {
+    position: fixed;
+    top: 0;
+    right: 10%;
+
+    display: block;
+    transition: top 0.3s;
+      z-index: 3;
+      background-color: white;
+       height: 65px;
+   }
+   .Rel{
+       position: relative;
+       top: 0;
+       background-color: rgba(0, 0, 0, 0.65);
+   }
+   #myVideo {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: 0;
+    min-width: 100%;
+  }
+.btn-custom:hover{
+  background-color: black;
+  color: white;
+}
+
+.link{
+    text-decoration: none;
+}
+.custom-font{
+    font-size: 100px;
+}
+.w100{
+    width: 75vw;
+  }
+
+  .h100{
+    height: 700px;
+  }
+  .bg-custom{
+      background-color: #f1f4f6;
+  }
+  .bg-custom4th{
+    background-color: #1d1d1f;
+  }
+  .rounded-4{
+      border-radius: 25px;
+  }
+  .bg-custom1{
+    background-image: radial-gradient(circle farthest-side at 0 100%,#fff1eb,#ace0f9);
+  }
+  .bg-custom9th{
+    background-image: linear-gradient(24deg,#414380,transparent 21%),linear-gradient(198deg,#ffdfac 11%,transparent 18%),linear-gradient(50deg,#923880 5%,#ff083f 32%,#fb5e4f 35%,#f85448 65%,#fba64b 83%,#ffa745 91%);
+  }
+  .bg-custom9th1{
+    background-color: #ff385d42;
+
+  }
+.rounded-start-1{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.rounded-end-1{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+@media screen and (max-width: 520px) {
+    .rounded-start-1{
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    .rounded-end-1{
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .custom-font{
+        font-size: 50px;
+    }
+}
